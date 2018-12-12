@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "OwlEngine.h"
 #include "Battlefield.h"
 
@@ -10,7 +11,7 @@ void Init()
 
 void Cleanup()
 {    
-    myassert(gBattlefield);
+    owlassert(gBattlefield);
     if (gBattlefield)
     {
         delete gBattlefield;
@@ -24,7 +25,7 @@ void SimpleDemo()
 }
 
 int main()
-{
+{    
     printf("\nInitializing...");
     Init();
     
