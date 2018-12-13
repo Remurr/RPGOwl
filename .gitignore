@@ -42,3 +42,8 @@ AppMR/Debug/*
 OwlRpg.VC.db
 OwlRpg.VC.VC.opendb
 RPGOwl.VC.db
+*.tlog
+*.idb
+*.log
+*.pdb
+*.opendb
