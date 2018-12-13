@@ -1,6 +1,8 @@
 #pragma once
 
 #include "OwlTools.h"
+#include "OwlMath.h"
+
 #include "BaseHeroStats.h"
 #include "BaseSkill.h"
 #include "BasePawn.h"

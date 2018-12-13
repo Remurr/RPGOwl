@@ -123,6 +123,7 @@
     <ClInclude Include="Headers\BasePawn.h" />
     <ClInclude Include="Headers\BaseSkill.h" />
     <ClInclude Include="Headers\OwlEngine.h" />
+    <ClInclude Include="Headers\OwlMath.h" />
     <ClInclude Include="Headers\OwlTools.h" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +137,7 @@
     <ClCompile Include="Src\BasePawn.cpp" />
     <ClCompile Include="Src\BaseSkill.cpp" />
     <ClCompile Include="Src\OwlEngine.cpp" />
+    <ClCompile Include="Src\OwlMath.cpp" />
     <ClCompile Include="Src\OwlTools.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
